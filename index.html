@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoyassin-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                   <li><a href="#">Accueil</a></li>
+                   <li><a href="#about">à propos</a></li>
+                   <li><a href="#services">Services</a></li>
+                   <li><a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>dévellopeur Full stack</p>
+                <h1>Hello,I'm <span> Yassine </span><br>  from morocco</h1>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="Acceuil-col-1">
+                        <img src="images/user.png" alt="">
+                    </div>
+                    <div class="Acceuil-col-2">
+                        <h1 class="sub-title"> A propos moi</h1>
+                        <p style="color: #fff;"> salut toute le monde je m'appelle yassine sallam<br>
+                         j'ai 23 ans, j'habitude actuellement en ville sidi bennour <br>
+                         je suis dévelloppeur full stack qualifé<br> 
+                         j'ai maitrisé beaucoup des technologiés frontend and backend </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">compétences</p>
+                        <p class="tab-links " onclick="opentab('exprience')"> Experience</p>
+                        <p class="tab-links" onclick="opentab('education')"> Eduction</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul><li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Developement</span><br>Web app developement</li>
+                            <li><span>App devellopement</span><br>Building Android/iOS apps</li></ul>
+                        </div>
+                        <div class="tab-contents"id="exprience">
+                            <ul><li><span> Aujourd’hui</span><br>Full Stack Developer-PFE-Digital04-Casablanca</li>
+                            <li><span>2021--2022</span><br>Stage de fin d’étude – commune sidi
+                                bennour</li>
+                            <li><span>2020--2021</span><br>Stage technique – interne</li>
+                            <li><span>2019--2020</span><br>Stage d’initiation –interne</li></ul>
+                        </div>
+                        <div class="tab-contents " id="education">
+                            <ul><li><span> 2022--2023</span><br>Licence Professionnelle Ingénierie des Systèmes
+                                                                      Informatiques et Technologies Web -- EST sidi bennour</li>
+                            <li><span>2021--2022</span><br>premiere année licence professionnelle
+                                informatique et math appliqué--sidi bennour</li>
+                            <li><span>2019--2021</span><br>DUT en Génie informatique – option Génie
+                                logiciel--sidi bennour</li>
+                            <li><span>2018--2019</span><br>Baccalauréat en science physique--sidi bennour</li></ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!------------------------- servics--------------------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <div class="sub-title"> Mes Services</div>
+            <div class="services-list">
+                <div> 
+                    <i class="fas fa-code"></i>
+                     <h2>UI/UX Design</h2>
+                    <p> j'ai beaucoup des connaissances pour la création d'interfaces<br>
+                        utilisateur attrayantes et intuitives pour les applications<br>
+                        web et mobiles. Il se concentre sur l'aspect visuel <br>
+                        de l'interface utilisateur et sur la création d'une expérience<br>
+                        utilisateur positive en rendant l'application facile à utiliser et cohérente</p>
+                        <a href="#">apprendre encore plus</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                    <h2>dévellopeur web</h2>
+                    <p> Je suis un développeur web Full Stack qualifié,<br>
+                         capable de travailler sur tous les aspects d'une application,<br>
+                          du côté client au côté serveur.</p>
+                          <a href="#">apprendre encore plus</a>
+                        </div>
+                        <div>
+                        <i class="fab fa-app-store"></i>
+                          <h2>dévellopeur Mobille</h2>
+                          <p> Je suis un développeur mobille qualifié,<br>
+                               capable de travailler sur tous les aspects d'une application,<br>
+                       du côté client au côté serveur.</p>
+                       <a href="#">apprendre encore plus</a>
+                    </div>
+            </div>
+           
+        </div>
+        </div>
+    <!-- ----------------------------------------------------------portfolio------------------- -->
+    <div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title">Mon travail</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.webp" >
+                <div class="layer">
+                    <h3>site web e-commerce </h3>
+                    <p> site web e-commerce  codée par(html-css
+                        js-MySQLbootstrabjQuery).</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-1.webp" >
+                <div class="layer">
+                    <h3>site web e-commerce </h3>
+                    <p> site web e-commerce  codée par (angular-
+                        json-Bootstrap-Css-HTML
+                        TypeScript-fontAwsone).</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-1.webp" >
+                <div class="layer">
+                    <h3>site d'achat en ligne </h3>
+                    <p> site d'achat en ligne (wordpress
+                        and bootstrap 5)</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">Voir plus</a>
+     </div>
+    
+    </div>
+    <!-- -------------------------------contact------------------------------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contactez moi</h1>
+                    <p><i class=" fas fa-paper-plane"></i> sallamyassine86@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 065593640</p>
+                     <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+
+                     </div>
+                     <a href="images/cv-yassine-sallam-f.pdf" download class="btn btn2">téléchargez mon CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" method="post">
+                        
+                        <input type="text"   name="nom" placeholder="votre nom..." required>
+                      
+                       
+                        <input type="email"  name="email" placeholder="votre email ..." required>
+                      
+                        
+                        <textarea id="message" name="message" placeholder="ecrivez moi une message" required></textarea>
+                      
+                        <input type="submit" class="btn btn2" value="Envoyer">
+                      
+                      </form>
+                      <span id="msg">hello</span>
+
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ yassine sallam <i class="fas fa-heart"></i> 2023</p>
+            </div>
+
+    </div></div>
+
+
+
+    </div>
+  
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for( tablink of tablinks ){
+                tablink.classList.remove("active-link");
+            }
+            for( tabcontent of tabcontents ){
+                tablink.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenut=document.getElementById("sidemenu");
+        function openmenu(){
+          return   sidemenu.style.right="0"  ;          
+        }
+        function closemenu(){
+          return  sidemenu.style.right="-200px" 
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw7Md1Yk47KY3t2aBvgEwuH9t9lurZhRDtXyp-whhe0dkakjYL9BnaDGj5OBSivJBcf/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg");
+      
+        form.addEventListener('submit', e =>{
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="message  sent successfuly";
+                setTimeout(function(){
+                    msg.innerHTML=""; 
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
